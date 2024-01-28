@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@700&display=swap');
+
+:root {
+  --ffm: 'Noto Sans Thai', sans-serif;
+  --fsize: 2vw;
+  --normwid: 1.6vw;
+  --longwid: 3.2vw;
+}
+
+
+body {
+    background-image: linear-gradient(135deg, hsl(180, 80%, 30%)
+        10%, hsl(240, 80%, 30%) 60%, hsl(300, 80%, 30%));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#javascript_output {
+    /* height: 40vw; */
+    min-height: 5vw;
+    width: 96vw;
+    position: relative;
+    top: calc(2vw - 4px);
+    left: 1vw;
+    /* left: calc(2vw - 4px); */
+    /* background-color: hsla(0, 0%, 0%, 0.3); */
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+#row {
+    height: 4vw;
+    width: calc(95vw - 20px);
+    background-color: hsla(0, 0%, 0%, 0.3);
+    position: relative;
+    left: 10px;
+    /* margin-top: 10px; */
+    padding-left: 1vw;
+    /* border-radius: 10px; */
+}
+#text {
+    display: inline-block;
+    color: white;
+    width: fit-content;
+    font-size: 2vw;
+    position: relative;
+    top: 0.8vw;
+    font-family: var(--ffm);
+}
+#celltext {
+    display: inline-block;
+    /* margin-top: -0.5vw; */
+    height: 3.6vw;
+    /* padding-top: 0vw; */
+    /* margin-right: 0.2vw; */
+    width: var(--normwid);
+    /* background-color: hsl(0, 0%, 20%); */
+    color: white;
+    width: var(--normwid);
+    font-size: var(--fsize);
+    font-family: var(--ffm);
+    border-radius: 5px;
+}
+#widecelltext {
+    display: inline-block;
+    /* margin-top: 0.5vw; */
+    height: 1.8vw;
+    padding-top: 0.5vw;
+    /* margin-right: 0.2vw; */
+    width: var(--longwid);
+    /* background-color: hsl(0, 0%, 20%); */
+    color: white;
+    font-size: var(--fsize);
+    font-family: var(--ffm);
+    border-radius: 10px;
+}
+#blanksign {
+    height: 1.2vw;
+    width: var(--normwid);
+    /* background-color: navy; */
+    color: grey;
+    position: relative;
+    /* top: 0.5vw; */
+    text-align: center;
+}
+#numcelltext {
+    display: inline-block;
+    /* margin-top: 0.5vw; */
+    height: 1.8vw;
+    padding-top: 0.5vw;
+    padding-right: 0.5vw;
+    margin-right: 1vw;
+    width: 2.4vw;
+    background-color: white;
+    color: black;
+    font-size: 1.2vw;
+    font-family: var(--ffm);
+    border-top-right-radius: 0.9vw;
+    border-bottom-right-radius: 0.9vw;
+    text-align: right;
+}
+#contnumcelltext {
+    display: inline-block;
+    margin-top: 0.5vw;
+    height: 2.4vw;
+    padding-top: 0vw;
+    padding-right: 0.5vw;
+    margin-right: 1vw;
+    width: 2.4vw;
+    /* background-color: hsl(0, 0%, 20%); */
+    color: hsl(0, 0%, 40%);
+    font-size: var(--fsize);
+    font-family: var(--ffm);
+    border-top-right-radius: 0.9vw;
+    border-bottom-right-radius: 0.9vw;
+    text-align: right;
+}
